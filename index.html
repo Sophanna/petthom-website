@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Thom - Hospital Engineering Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; font-family: 'Inter', sans-serif; color: #333; line-height: 1.6; }
+        
+        /* HEADER */
+        header {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 20px 40px; max-width: 1200px; margin: 0 auto;
+        }
+        .logo { font-size: 24px; font-weight: 800; color: #007bff; text-decoration: none; }
+        .nav-links a { margin-left: 20px; text-decoration: none; color: #555; font-weight: 600; }
+        .btn-login {
+            background: #007bff; color: white !important; padding: 10px 20px;
+            border-radius: 8px; transition: 0.2s;
+        }
+        .btn-login:hover { background: #0056b3; }
+
+        /* HERO SECTION */
+        .hero {
+            text-align: center; padding: 80px 20px; background: #f4f7f6;
+        }
+        h1 { font-size: 48px; margin-bottom: 20px; color: #111; }
+        p.subtitle { font-size: 18px; color: #666; max-width: 600px; margin: 0 auto 40px auto; }
+        .hero-img { width: 100%; max-width: 800px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+
+        /* FEATURES */
+        .features {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px; max-width: 1200px; margin: 80px auto; padding: 0 20px;
+        }
+        .feature-card { padding: 30px; border: 1px solid #eee; border-radius: 12px; text-align: center; }
+        .icon { font-size: 40px; margin-bottom: 20px; display: block; }
+
+        /* FOOTER */
+        footer { background: #111; color: #777; padding: 40px; text-align: center; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Pet Thom.</a>
+        <nav class="nav-links">
+            <a href="#">Articles</a>
+            <a href="#">Case Studies</a>
+            <a href="#">About Us</a>
+            <a href="https://app.petthom.com" class="btn-login">Open App &rarr;</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Better Healthcare Technology.<br>Safer Hospitals.</h1>
+        <p class="subtitle">Pet Thom helps Cambodian hospitals manage medical equipment, track maintenance, and ensure patient safety.</p>
+        
+        <a href="https://app.petthom.com" style="background:#007bff; color:white; padding:15px 30px; text-decoration:none; border-radius:10px; font-weight:bold; font-size:18px;">
+            Launch System
+        </a>
+        
+        <br><br><br>
+        <img src="https://images.unsplash.com/photo-1516549655169-df83a0833860?auto=format&fit=crop&w=1600&q=80" class="hero-img">
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <span class="icon">🚑</span>
+            <h3>Fast Support</h3>
+            <p>Doctors can report broken equipment in seconds via our mobile web app.</p>
+        </div>
+        <div class="feature-card">
+            <span class="icon">📊</span>
+            <h3>Data Analytics</h3>
+            <p>Hospital directors get real-time insights on asset performance and downtime.</p>
+        </div>
+        <div class="feature-card">
+            <span class="icon">📘</span>
+            <h3>Knowledge Base</h3>
+            <p>Engineers access manuals, government guidelines, and maintenance procedures.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Medical Equipment Expert Consultant: Sophanna Hor</p>
+        <p>&copy; 2026 Pet Thom System. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
