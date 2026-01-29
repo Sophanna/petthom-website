@@ -21,7 +21,14 @@
         
         /* HEADER */
         header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; }
-        .logo { font-size: 24px; font-weight: 800; color: #007bff; text-decoration: none; }
+        
+        /* 🟢 NEW LOGO STYLE */
+        .logo-img { 
+            height: 50px; /* Adjusts height automatically */
+            width: auto; 
+            display: block;
+        }
+
         .btn-app { background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 8px; font-weight: bold; }
         .link-archive { text-decoration: none; color: #555; font-weight: 600; margin-right: 20px; }
         .link-archive:hover { color: #007bff; }
@@ -50,7 +57,9 @@
 
     <div class="container">
         <header>
-            <a href="#" class="icon.png">Pet Thom.</a>
+            <a href="#">
+                <img src="icon.png" alt="Pet Thom" class="logo-img">
+            </a>
             
             <div style="display: flex; align-items: center;">
                 <a href="news-archive.html" class="link-archive">News Archive</a>
